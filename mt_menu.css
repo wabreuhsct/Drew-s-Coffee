@@ -1,0 +1,112 @@
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border:3px double orange;
+}
+
+header {
+    padding-bottom: 25px;
+}
+
+body {
+    background-image: url('mt_background.png');
+    font-family: 'Roboto', sans-serif
+  }
+  
+h1, h2, h3 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5em;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+  .menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 1px solid rgb(51, 51, 51);
+    box-shadow: sienna 15px 0px 25px,
+                saddlebrown -15px 0px 25px;
+  }
+  
+
+  p {
+    font-family: 'Garamond', serif;
+    font-size: .5em;
+  }
+
+  .item p {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert, .sandwhich {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .price {
+    width: 50%;
+    text-align: right;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  
+  a {
+    color: black;
+  }
+
+  footer {
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+  }
+
+
+  nav {
+    padding: 0;
+    margin: 0;
+    font-family: 'Garamond', serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    background: saddlebrown;
+    height: 80px;
+    width: 100%;
+  }
+
+  nav ul {
+   text-align: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+
+  nav ul li a{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
+  a.active,a:hover {
+    background: grey;
+    transition: .5s;
+  }
